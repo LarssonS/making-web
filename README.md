@@ -1,9 +1,16 @@
-# making-web
-Final project for html/css
+# Making-web
+Examinationsprojekt html/css.
 
 
 
-#test
-Some changes
+## Arbetsmetod
+Vi har bestämt att arbeta efter arbetsmetoden scrumban och det vi använder oss av är följande:
+
+* Daily scrum.
+
+* Trello - backlog, arbetsflöde.
+
+
+
 
 
