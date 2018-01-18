@@ -1,4 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
+	margin: 0;
 	font-family: $default-font-family;
 	font-size: $default-font-size;
 }
