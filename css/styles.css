@@ -4,9 +4,10 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0;
-  font-family: "Lora", serif;
-  font-size: 16px; }
+  margin: 0; }
+
+section {
+  padding-top: 7.5em; }
 
 body {
   font-family: "Lora", serif;
@@ -20,7 +21,8 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background: #f9f9f9;
-  width: 100%; }
+  width: 100%;
+  position: fixed; }
 
 .nav-links a {
   text-decoration: none;
@@ -102,14 +104,77 @@ body {
       margin: 0 20px; } }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 80%;
   margin: 0 auto; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .logo-size {
   height: 80px;
   width: 80px; }
+
+.hero-image {
+  background-image: url("../images/home-smaller.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px; }
+  @media screen and (min-width: 600px) {
+    .hero-image {
+      height: 530px;
+      background-image: url("../images/home.jpg");
+      background-size: 100% 100%; } }
+
+@media screen and (min-width: 600px) and (min-width: 1290px) {
+  .hero-image {
+    background-size: cover; } }
+
+section div .wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.center {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0; }
+
+.about-us-text {
+  padding: 0 15px; }
+  .about-us-text h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px; }
+  .about-us-text h1::first-letter {
+    font-size: 48px; }
+  .about-us-text h2 {
+    font-weight: normal;
+    font-size: 24px; }
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .about-us-text h1::first-letter {
+    font-size: 40px; }
+  .about-us-text {
+    padding: 0; } }
+
+@media screen and (min-width: 600px) {
+  .about-us-text {
+    width: 50%; }
+  .about-us-img {
+    background-image: url("../images/IT-solution.png");
+    height: 400px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center right; } }
+
+@media screen and (max-width: 768px) {
+  .about-us-text h2 {
+    font-size: 21px; } }
 
 /*# sourceMappingURL=styles.css.map */
