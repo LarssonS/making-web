@@ -1,20 +1,49 @@
-.hero-image {
-	background-image: url("../images/home-smaller.png");
-	background-position: left;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 400px;
-
-	@media screen and (min-width: 600px) {
-		& {
-			height: 530px;
-			background-image: url("../images/home.jpg");
-			background-size: 100% 100%;
-		}
-		@media (min-width: 1290px) {
-			& {
-				background-size: cover;
-			}
-		}
+/* -----> Header <----- */
+.slogan-wrapper {
+	display: flex;
+	position: relative;
+	padding: 4%;
+}
+.slogan-content {
+	text-align: center;
+	margin: auto;
+	h1 {
+		color: $slogan-color;
+		font-family: $slogan-font;
+		font-size: $slogan-font-size;
+		font-weight: $slogan-font-weight;
 	}
+	h2 {
+		text-decoration: underline lightgreen;
+		color: $slogan-color;
+		font-weight: 300;
+		padding: 0 1em 1em;
+		font-size: 1.1em;
+	}
+
+}
+
+.header-wrapper {
+    background-image: url(../images/home.jpg), linear-gradient(#eb01a5, #d13531);
+	//background-image: url(../images/web-design2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: auto;
+	display: flex;
+	position: relative;
+	padding: 1%;
+}
+.header-content {
+//    background-color: rgba(255, 255, 255, 0.8);
+	background-size: contain;
+	background-position: center;
+	@extend .slogan-content;
+	margin-top:50px;
+}
+.wave-header {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
