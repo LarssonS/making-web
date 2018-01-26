@@ -1,0 +1,30 @@
+﻿
+
+@mixin verticalGradient($fromColor, $toColor){
+	background-color: $toColor;
+	background-image: -webkit-gradient(linear, left top,left bottom, from($fromColor), to($toColor));
+	background-image: -webkit-linear-gradient(to bottom, $fromColor, $toColor);
+	background-image: -moz-linear-gradient(to bottom, $fromColor, $toColor);
+	background-image: -ms-linear-gradient(to bottom, $fromColor, $toColor);
+	background-image: linear-gradient(to bottom, $fromColor, $toColor);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$fromColor}, endColorstr='$toColor');    
+}
+
+@mixin boxshadow(){
+	background-color: $background-color;
+	-webkit-box-shadow: 0px -6px 26px 1px rgba(125,125,125,0.2);
+	-moz-box-shadow: 0px -6px 26px 1px rgba(125,125,125,0.2);
+	-ms-box-shadow: 0px -6px 26px 1px rgba(125,125,125,0.2);
+	box-shadow: 0px -6px 26px 1px rgba(125,125,125,0.2);
+}
+
+@mixin boxSizing(){
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+
+
+
