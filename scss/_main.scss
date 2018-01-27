@@ -3,6 +3,12 @@
 .page-wrapper {
 	max-width: 960px;
 	margin: 0 auto;
+	h2{
+		text-decoration: underline lightblue;
+//		border-bottom-width: 1px;
+//		border-bottom-style: solid;
+//		border-bottom-color: coral;
+	}
 }
 .section-wrapper {
 	padding: 8% 3% 0;
@@ -40,43 +46,4 @@
 	p {
 		margin-top: 0;
 	}
-}
-.contact-wrapper {
-	width: 100%;
-	margin: 0 auto;
-	a {
-		color: $main-contact-wrapper-a-color;
-		font-weight: 400;
-		transition: 0.4s;
-	}
-	a:hover {
-		color: $main-contact-wrapper-a-hover-color;
-		text-decoration: underline;
-	}
-}
-
-.contact-form input, .contact-form textarea {
-	background-color: $main-contact-form-input-bachground-color;
-	border: none;
-	font-family: $main-contact-form-input-font-family;
-	width: 100%;
-	padding: 1em;
-	margin: 0 0 1em;
-}
-textarea {
-	height: $main-textarea-heigth;
-	resize: $main-textarea-resize;
-}
-input:focus, textarea:focus {
-	color: $main-focus-color;
-	outline-color: $main-focus-outline-color;
-}
-input[type="submit"] {
-	background-color: $main-input-submit-background-color;
-	color: $main-input-submit-font-color;
-	cursor: $main-input-submit-cursor;
-	transition: $main-input-submit-transition;
-}
-.submit:hover {
-	background-color: $main-submit-hover-background-color;
 }

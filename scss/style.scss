@@ -6,6 +6,7 @@
 @import 'main';
 @import 'footer';
 @import 'media-query';
+@import 'contact';
 
 
 html {
@@ -37,17 +38,16 @@ a {
 	text-decoration: none;
 }
 
+.rbox {
+    background: #eee url(../images/header-back.png) repeat;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.mb15 {
+    margin-bottom: 15px;
+}
 
 
 
