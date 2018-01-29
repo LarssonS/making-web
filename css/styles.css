@@ -361,6 +361,19 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=white, endColorstr='$toColor'); }
 
 /* -----> contact <----- */
+.contact-wrapper {
+  width: 100%;
+  margin: 0 auto; }
+  .contact-wrapper a {
+    color: #007c74;
+    font-weight: 400;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+  .contact-wrapper a:hover {
+    color: #00a99d;
+    text-decoration: underline; }
+
 .contact-form input, .contact-form textarea {
   background-color: #eae8e8;
   border: none;
