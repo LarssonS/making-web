@@ -1,21 +1,8 @@
 ﻿/* -----> contact <----- */
 
-.contact-wrapper {
-	width: 100%;
-	margin: 0 auto;
-	a {
-		color: $main-contact-wrapper-a-color;
-		font-weight: 400;
-		transition: 0.4s;
-	}
-	a:hover {
-		color: $main-contact-wrapper-a-hover-color;
-		text-decoration: underline;
-	}
-}
 
 .contact-form input, .contact-form textarea {
-	background-color: $main-contact-form-input-bachground-color;
+	background-color: $main-contact-form-input-background-color;
 	border: none;
 	font-family: $main-contact-form-input-font-family;
 	width: 100%;
@@ -23,7 +10,7 @@
 	margin: 0 0 1em;
 }
 textarea {
-	height: $main-textarea-heigth;
+	height: $main-textarea-height;
 	resize: $main-textarea-resize;
 }
 input:focus, textarea:focus {
@@ -42,13 +29,13 @@ input[type="submit"] {
 
 
 .contact .gmap{
-	padding:8px 8px 0px 8px;
+	padding: 8px 8px 20px 8px;
 	background:#fff;
 	box-shadow:0px 0px 2px #aaa;
 	border-radius:5px;
 	margin-bottom:20px;
 }
-
+	
 .contact .gmap iframe{
 	width:100%;
 	box-shadow:3px 3px 3px #aaa;
