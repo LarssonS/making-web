@@ -1,11 +1,8 @@
-var navBar = document.getElementById("navBar");
-var toggleNav = document.getElementById("toggleNav");
-
-toggleNav.addEventListener("click", function(){
-	if (navBar.classList.contains("nav-bar-open") == false) {
-		navBar.classList.add("nav-bar-open");
+function navToggle() {
+	var x = document.getElementById("content-toggle");
+	if (x.className === "navigation-menu") {
+		x.className += " responsive";
+	} else {
+		x.className = "navigation-menu";
 	}
-	else {
-		navBar.classList.remove("nav-bar-open");
-	}
-})
+}

@@ -26,9 +26,9 @@
 	.header-wrapper{
 		height: 300px;
 	}
-		.header-content{
-		display:none;
-	}
+  .header-content{
+      display:none;
+  }
 
 
 }
@@ -56,9 +56,16 @@
         height: 600px;
         padding: 0;
     }
+    .no-flexbox .header-wrapper {
+        padding: 10px;
+    }
     .section-row {
         display: flex;
         justify-content: space-between;
+    }
+    .no-flexbox .section-row {
+        width: 960px;
+        margin: 0 auto;
     }
     .hide-phone {
         display: block;
@@ -84,3 +91,31 @@
         height: 700px;
     }
 }
+
+.no-mediaqueries {
+    & .navigation-wrapper ul {
+        background-color: #fff;
+        float: right;
+        display: block;
+        margin: 0;
+        list-style: none;
+
+        .navigation-wrapper li {
+            display: inline-block;
+
+        }
+    } 
+    & .navigation-menu {
+        float: right;
+        width: auto;
+        
+        & li {
+            display: inline-block;
+            line-height: 45px;
+        }
+    }
+    & #mobile-menu {
+        display: none;
+    }
+}
+
