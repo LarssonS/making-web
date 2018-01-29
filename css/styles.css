@@ -7,6 +7,7 @@
 /**/
 /*main*/
 /**/
+/* Button*/
 /* -----> Navigation <----- */
 .navigation-wrapper {
   background-color: #fff;
@@ -275,6 +276,26 @@ a:hover {
 @media (min-width: 960px) {
   .header-wrapper {
     height: 700px; } }
+.btn-a, .btn-b {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 10px;
+  border: 1px solid #987123;
+  border-radius: 7px;
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.btn-b {
+  background-color: #dfbc75;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dfbc75));
+  background-image: -webkit-linear-gradient(to bottom, white, #dfbc75);
+  background-image: -moz-linear-gradient(to bottom, white, #dfbc75);
+  background-image: -ms-linear-gradient(to bottom, white, #dfbc75);
+  background-image: linear-gradient(to bottom, white, #dfbc75);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=white, endColorstr='$toColor'); }
+
 /* -----> contact <----- */
 .contact-wrapper {
   width: 100%;
