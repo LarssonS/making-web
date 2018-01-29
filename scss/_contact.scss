@@ -1,0 +1,84 @@
+﻿/* -----> contact <----- */
+
+.contact-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	a {
+		color: $main-contact-wrapper-a-color;
+		font-weight: 400;
+		transition: 0.4s;
+	}
+	a:hover {
+		color: $main-contact-wrapper-a-hover-color;
+		text-decoration: underline;
+	}
+}
+
+.contact-form input, .contact-form textarea {
+	background-color: $main-contact-form-input-bachground-color;
+	border: none;
+	font-family: $main-contact-form-input-font-family;
+	width: 100%;
+	padding: 1em;
+	margin: 0 0 1em;
+}
+textarea {
+	height: $main-textarea-heigth;
+	resize: $main-textarea-resize;
+}
+input:focus, textarea:focus {
+	color: $main-focus-color;
+	outline-color: $main-focus-outline-color;
+}
+input[type="submit"] {
+	background-color: $main-input-submit-background-color;
+	color: $main-input-submit-font-color;
+	cursor: $main-input-submit-cursor;
+	transition: $main-input-submit-transition;
+}
+.submit:hover {
+	background-color: $main-submit-hover-background-color;
+}
+
+
+.contact .gmap{
+	padding:8px 8px 0px 8px;
+	background:#fff;
+	box-shadow:0px 0px 2px #aaa;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+.contact .gmap iframe{
+	width:100%;
+	box-shadow:3px 3px 3px #aaa;
+	padding-bottom:0px !important;
+	margin-bottom:0px !important;
+}
+
+.contact .cwell{
+	padding:10px 10px;
+	background:#f9f9f9;
+	border:1px solid #eee;
+	border-radius:10px;
+	margin-bottom:15px;
+}
+
+.contact .csoci{
+	text-align:center;
+}
+
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
