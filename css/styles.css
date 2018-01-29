@@ -160,7 +160,7 @@ a:hover {
 .col-1-1 {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  margin: 4%; }
+  margin: 0.5%; }
   .col-1-1 p {
     text-align: center; }
 
