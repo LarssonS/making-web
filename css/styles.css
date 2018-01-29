@@ -383,7 +383,7 @@ a:hover {
   margin: 0 0 1em; }
 
 textarea {
-  height: 15em;
+  height: 6em;
   resize: none; }
 
 input:focus, textarea:focus {
@@ -455,7 +455,7 @@ body {
   color: #191919;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   padding: 0;
   margin: 0; }
@@ -466,6 +466,9 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
+
+h5, h3 {
+  text-align: center; }
 
 a {
   text-decoration: none; }
